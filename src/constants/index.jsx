@@ -55,45 +55,45 @@ export const faq = [
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Posso integrar o Xora com outras plataformas?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutamente! Você não apenas pode atualizar seu plano a qualquer momento, mas também obter um desconto proporcional que oferece o valor máximo para sua assinatura.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Quanto tempo levaria para que meu site estivesse pronto para uso público?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Dependerá principalmente da magnitude do projeto e se serão adicionadas funcionalidades mais complexas, como banco de dados e autenticação de usuários..",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Posso fornecer as informações para a personalização do meu produto?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Claro. Nossa ideia é que o resultado seja o mais parecido possível com o que o cliente deseja e precisa. É encontrar esse equilíbrio perfeito para garantir que o resultado final seja transmitido.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Posso sugerir variações para meu site já concluído?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Dependerá do plano que você como cliente tem ativo, embora em todos eles exista a possibilidade de customização mesmo após a finalização do site, aplicativo ou sistema.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "O que acontece se algo inesperado acontecer e meu site não funcionar?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "É para isso que serve a nossa equipe de suporte, para garantir que você receba a melhor atenção possível em qualquer fase do desenvolvimento, implementação e teste de nossos serviços.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Posso optar por adicionar novos recursos e novas ideias ao meu site ou aplicativo?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Claro!!!. A principal qualidade dos nossos produtos é a constante atualização e adaptação ao mercado, buscando sempre ser robustos com o que é fundamental, e ao mesmo tempo flexíveis com o que precisa ser mudado.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "Como posso entrar em contato com você na Eurekae?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Aqui no site temos as informações necessárias para entrar em contato conosco, além de termos nossos principais perfis disponíveis nas redes sociais, bem como nosso e-mail para uma abordagem mais profissional.",
   },
 ];
 
