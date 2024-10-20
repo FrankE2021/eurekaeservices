@@ -282,7 +282,7 @@
   }
 
   .download_tech-icon_before {
-    @apply before:absolute before:inset-1.5 before:rounded-half before:bg-s3 before:content-[''] hover:border-s4;
+    @apply before:absolute before:inset-1.5 before:rounded-half before:bg-p2 before:content-[''] hover:border-s4;
   }
 
   .download_tech-link:hover .download_tech-icon svg path {

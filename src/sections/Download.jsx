@@ -14,9 +14,9 @@ const Download = () => {
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
               <div className="mb-10">
                 <img
-                  src="/logo2.png"
-                  width={200}
-                  height={80}
+                  src="/images/logo.png"
+                  width={120}
+                  height={60}
                   alt="xora"
                   className="rounded-14"
                 />
