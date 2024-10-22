@@ -16,9 +16,10 @@ const Hero = () => {
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
               Nossa empresa trabalha para oferecer o melhor serviço aos nossos clientes
             </p>
-            <LinkScroll to="features" offset={-100} spy smooth>
+            <a href="https://wa.me/5585985105026?text=Hola%20Eurekae!!%2C%20Les%20escribo%20por%20la%20siguiente%20raz%C3%B3n%3A" target="_blank" rel="noopener noreferrer">
               <Button icon="/images/zap.svg">Contate-nos</Button>
-            </LinkScroll>
+            </a>
+
           </div>
 
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">

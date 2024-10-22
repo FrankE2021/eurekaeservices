@@ -7,8 +7,9 @@ export const features = [
     text: "Nosso trabalho na Eurekae é garantir aos nossos clientes um produto eficiente com a utilização das melhores ferramentas possíveis, buscando sempre nos aprimorar em cada projeto.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Exemplos",
+      title: "Exemplo",
     },
+    link: "https://rockefeller-five.vercel.app",
   },
   {
     id: "1",
@@ -20,6 +21,7 @@ export const features = [
       icon: "/images/docs.svg",
       title: "Leia os documentos",
     },
+    link: "https://vercel.com/security",
   },
 ];
 
