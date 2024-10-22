@@ -7,9 +7,13 @@ import Testimonials from "./sections/Testimonials.jsx";
 import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
 
-const App = () => {
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PaymentPage from "./pages/PaymentPage"; // Nueva página independiente
+
+// Componente que renderiza todo el contenido de la página principal
+const MainPage = () => {
   return (
-    <main className="overflow-hidden">
+    <>
       <Header />
       <Hero />
       <Features />
@@ -18,7 +22,23 @@ const App = () => {
       <Testimonials />
       <Download />
       <Footer />
-    </main>
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <main className="overflow-hidden">
+        <Routes>
+          {/* Ruta principal que carga el contenido de toda la página */}
+          <Route path="/" element={<MainPage />} />
+
+          {/* Ruta independiente para la página de pago */}
+          <Route path="/payment" element={<PaymentPage />} />
+        </Routes>
+      </main>
+    </Router>
   );
 };
 

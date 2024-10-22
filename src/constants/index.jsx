@@ -147,6 +147,25 @@ export const plans = [
   },
 ];
 
+export const planpay = [
+  {
+    id: "1",
+    title: "Padrão",
+    priceMonthly: 99,
+    priceYearly: 89,
+    caption: "Plano mais popular",
+    features: [
+      "Todos os recursos iniciais",
+      "Personalização ilimitada",
+      "Até 3 páginas da web funcionais",
+      "Suporte 6 dias úteis durante o dia",
+    ],
+    icon: "/images/triangle.svg",
+    logo: "/images/plan-2.png",
+  },
+];
+
+
 export const testimonials = [
   {
     id: "0",

@@ -4,6 +4,7 @@ import clsx from "clsx";
 import CountUp from "react-countup";
 import { plans } from "../constants/index.jsx";
 import Button from "../components/Button.jsx";
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -147,7 +148,9 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button icon={plan.icon}>Comece</Button>
+                  <Link to="/payment">
+                    <Button icon={plan.icon}>Comece</Button>
+                  </Link>
                 </div>
 
                 {index === 1 && (
